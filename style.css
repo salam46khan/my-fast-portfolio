@@ -34,10 +34,13 @@ h1{
 .bdr{
     border: 1px solid red;
 }
+
+
+/* banner section start here --------------------------------------------------- */
 .banner{
     display: flex;
     min-height: 90vh;
-    background-image: linear-gradient(to bottom, rgba(5, 134, 255, 0.418), #373737), url('img/gray-abstract-wireframe-technology-background.jpg');
+    background-image: linear-gradient(0deg ,  #373737 40%, #0518be81), url('img/gray-abstract-wireframe-technology-background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,7 +59,29 @@ h1{
     display: flex;
     align-items: end;
     justify-content: center;
+    position: relative;
+    overflow: hidden;
+    
 }
 .banner-img img{
     width: 70%;
+    /* background: #000; */
+    
 }
+.banner-img::after{
+    content: '';
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, #373737, #00000000);
+}
+/* banner sectoion end here ============================================ */
+
+
+/* about section start here ============================================ */
+.about{
+    display: flex;
+}
+.about-img
