@@ -1,13 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    background: #373737;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 1.2;
+}
+.link-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #373737;
+    background: greenyellow;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+.link-btn:hover{
+    background: #000;
+    color: greenyellow;
+}
+.grn{
+    color: greenyellow;
 }
 .bdr{
     border: 1px solid red;
 }
 .banner{
     display: flex;
-    /* justify-content: center; */
+    min-height: 90vh;
+    background-image: linear-gradient(to bottom, rgba(5, 134, 255, 0.418), #373737), url('img/gray-abstract-wireframe-technology-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3%;
+}
+.banner-content{
+    width: 50%;
+    padding: 30px 3%;
+    display: flex;
+    justify-content: center;
     align-items: center;
+}
+
+.banner-img{
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.banner-img img{
+    width: 70%;
 }
