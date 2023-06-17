@@ -13,6 +13,12 @@ h1{
     font-size: 50px;
     line-height: 1.2;
 }
+h2{
+    font-size: 40px;
+}
+hr{
+    margin-bottom: 15px;
+}
 .link-btn{
     display: inline-block;
     text-decoration: none;
@@ -40,11 +46,12 @@ h1{
 .banner{
     display: flex;
     min-height: 90vh;
-    background-image: linear-gradient(0deg ,  #373737 40%, #0518be81), url('img/gray-abstract-wireframe-technology-background.jpg');
+    background-image: linear-gradient(0deg ,  #373737 40%, #09b6fa65), url('img/gray-abstract-wireframe-technology-background.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 3%;
+    color: ;
 }
 .banner-content{
     width: 50%;
@@ -83,5 +90,43 @@ h1{
 /* about section start here ============================================ */
 .about{
     display: flex;
+    padding: 2% 5%;
 }
-.about-img
+.about-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.about-img img{
+    width: 60%;
+}
+.about-content{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+/* about section end here ============================================= */
+
+
+/* experience section start here======================================= */
+.experience{
+    padding: 2% 5%;
+}
+.experience-content{
+    display: flex;
+}
+.experience-content div{
+    width: 50%;
+    /* border: 1px solid; */
+    padding: 3%;
+    margin: 3%;
+    background: #ffffff1f;
+    box-shadow: #fafafa77 6px 6px 10px, inset #ffffff1f 1px 1px 4px;
+    border-radius: 15px;
+}
+.exp-1{
+    border-left: 8px solid rgb(0, 132, 255);
+}
+.exp-2{
+    border-left: 8px solid greenyellow;
+}
